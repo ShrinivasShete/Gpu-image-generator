@@ -1,0 +1,7 @@
+Requirements
+
+streamlit
+torch
+diffusers
+transformers
+pillow
