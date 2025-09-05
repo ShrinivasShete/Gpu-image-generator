@@ -1,7 +1,33 @@
-Requirements
+Python 3.9 or higher
 
-streamlit
-torch
-diffusers
-transformers
-pillow
+Download: Python Downloads
+
+Verify with:
+
+python --version
+
+
+NVIDIA GPU with CUDA support
+
+Required for GPU-accelerated image generation.
+
+At least 4GB VRAM recommended (8GB+ preferred for large images).
+
+Install CUDA Toolkit: CUDA Downloads
+
+Verify with:
+
+nvidia-smi
+
+
+Python libraries (will be auto-installed via requirements.txt):
+
+streamlit → for creating the web interface
+
+torch → PyTorch backend for GPU computing
+
+diffusers → Stable Diffusion model support
+
+transformers → Hugging Face model utilities
+
+pillow → image processing
